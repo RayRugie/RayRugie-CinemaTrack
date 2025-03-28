@@ -1,4 +1,4 @@
-# Cinematrack (formerly usePopcorn)
+# Cinematrack
 
 Cinematrack is a React-based movie management application that allows users to search for movies, view detailed information, rate them, and maintain a personalized list of watched movies. It features dynamic state management, reusable components, and a responsive design for an engaging user experience.
 
