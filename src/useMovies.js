@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 const KEY = "b2a3bc26";
 
-export function useMovies(query, callback) {
+export function useMovies(query) {
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
 
   useEffect(
     function () {
-      callback?.();
+      // callback?.();
 
       const controller = new AbortController();
 
@@ -37,7 +37,6 @@ export function useMovies(query, callback) {
         } finally {
           setIsLoading(false);
         }
-        // setIsLoading(false);
       }
 
       if (query.length < 3) {
@@ -45,13 +44,13 @@ export function useMovies(query, callback) {
         setError("");
         return;
       }
-      //   handleCloseMovie();
+
       fetchMovies();
       return function () {
         controller.abort();
       };
     },
-    [callback]
+    [query]
   );
   return { movies, isLoading, error };
 }
