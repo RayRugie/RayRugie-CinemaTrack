@@ -143,7 +143,9 @@ function Logo() {
   return (
     <div className="logo">
       <span role="img">🍿</span>
-      <h1>CinemaTrack</h1>
+      <h1>
+        <a href="/">CinemaTrack</a>
+      </h1>
     </div>
   );
 }
