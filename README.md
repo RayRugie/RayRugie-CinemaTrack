@@ -11,11 +11,6 @@ Cinematrack is a React-based movie management application that allows users to s
 - **Responsive Design**: Optimized for both desktop and mobile devices.
 - **Dynamic State Management**: Uses React hooks like `useState`, `useEffect`, and custom hooks for efficient state handling.
 
-## Demo
-
-![Cinematrack Demo](https://via.placeholder.com/800x400)  
-_Screenshot of the application interface._
-
 ## Installation
 
 1. Clone the repository:
