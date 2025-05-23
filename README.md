@@ -31,12 +31,12 @@ src/
 ├── App.js
 ├── index.css
 └── index.js
-Key Components
+# Key Components
 App.js: The main application file that manages state and renders components.
 StarRating.js: A reusable component for rating movies.
 useMovies.js: A custom hook for fetching movie data from the OMDB API.
 useLocalStorageState.js: A custom hook for persisting state in local storage.
-Future Enhancements
+# Future Enhancements
 Add user authentication for personalized movie lists.
 Implement sorting and filtering options for the watched list.
 Add support for multiple user profiles.
