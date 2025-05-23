@@ -19,7 +19,7 @@ CSS: For styling and responsive design.
 OMDB API: For fetching movie data.
 Custom Hooks: For managing local storage and keyboard shortcuts.
 ## File Structure
-src/
+```src/
 ├── components/
 │   ├── StarRating.js
 │   ├── MovieList.js
@@ -31,6 +31,7 @@ src/
 ├── App.js
 ├── index.css
 └── index.js
+```
 # Key Components
 App.js: The main application file that manages state and renders components.
 StarRating.js: A reusable component for rating movies.
