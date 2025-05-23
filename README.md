@@ -18,7 +18,7 @@ React: For building the user interface.
 CSS: For styling and responsive design.
 OMDB API: For fetching movie data.
 Custom Hooks: For managing local storage and keyboard shortcuts.
-# File Structure
+## File Structure
 src/
 ├── components/
 │   ├── StarRating.js
